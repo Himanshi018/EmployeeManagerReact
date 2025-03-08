@@ -25,7 +25,7 @@ const CreateTask = () => {
         elem.taskCounts.newTask = (elem.taskCounts.newTask + 1)
       }
     })
-    localStorage.setItem('employees', JSON.stringyfy(data))
+    localStorage.setItem('employees', JSON.stringify(data))
 
     setTaskDate("");
     setTaskDescription("");
